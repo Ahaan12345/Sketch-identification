@@ -1,0 +1,25 @@
+body{
+    background-color: cyan;
+}
+h1{
+    color: orangered;
+    background-color: navy;
+}
+canvas{
+    border: 3px solid yellow;
+    border-radius: 15px;
+    animation-name: xyz;
+    animation-duration: 5s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes xyz{
+    from{
+        box-shadow: 1px 1px 50px rgb(0, 255, 0);
+
+    }
+    to{
+        box-shadow: 1px 1px 50px rgb(255, 0, 111);
+    }
+}
